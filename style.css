@@ -1,0 +1,67 @@
+.card {
+    position: absolute;
+    /* 300px with no border */
+    /* width: 298px; */
+    top: 10px;
+    bottom: 290px;
+    border: 1px solid black;
+    line-height: 120px;
+    text-align: center;
+    background: white;
+    transition: right .2s linear,
+                bottom .2s linear,
+                top .2s linear,
+                left .2s linear,
+                line-height .2s linear,
+                z-index .2s linear;
+  }
+  
+  .card-1 {
+    left: 10px;
+    right: 650px;
+    background: #5ae3b368;
+  }
+  
+  .card-2 {
+    left: 330px;
+    right: 330px;
+    background: #9084eb68;
+  }
+  
+  .card-3 {
+    left: 650px;
+    right: 10px;
+    background: #f78dd793;
+  }
+  
+  .expanded {
+    top: 10px;
+    right: 102px;
+    bottom: 102px;
+    left:10px;
+    line-height: 400px;
+    z-index: 9999;
+  }
+  
+  #container {
+    /* Set position to relative 
+    to create a coordinate system
+    for child elements */
+    position: relative;
+    
+    /* Set margin left/right to auto to
+    center the page in the browser */
+    margin: 0 auto;
+    
+    /* Move the page from the top of the
+    browser window. */
+    margin-top: 20px;
+    
+    width: 960px;
+    height: 420px;
+    border: 1px solid Black;
+  }
+  
+  * {
+    font-family: Helvetica, Arial, sans-serif;
+  }
